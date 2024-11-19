@@ -3,6 +3,7 @@ vim.cmd("set shiftwidth=4")
 vim.cmd("set softtabstop=4")
 vim.cmd("set tabstop=4")
 vim.cmd("set expandtab")
+vim.cmd("set nu")
 
 -- Local files
 vim.cmd("autocmd FileType xml setlocal shiftwidth=2 softtabstop=2 expandtab")
